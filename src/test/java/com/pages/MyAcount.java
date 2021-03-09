@@ -70,7 +70,7 @@ public class MyAcount extends BasePage {
         oldpasswd.sendKeys(oldPassword,Keys.ENTER);
     }
 
-    public void sendPassword( String password){
+    public void sendPassword(String password){
         passwd.sendKeys(password,Keys.ENTER);
     }
 
